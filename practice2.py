@@ -60,7 +60,22 @@ def main():
     
     #4
     print("-------------------4------------------")
+    #26
+    word = input()
+    shift = int(input())
+    for i in word:
+        normalize_char(i, shift)
 
-    
+def normalize_char(val, shift):
+    temp = ord(val) #converts to ascii values
+    if val.islower(): #checks whether characters lowercase or not
+        temp = temp - 32 # make the same level with uppercase characters
+    temp = temp - 65 # put characthers between 0 to 64
+
+    char = ((temp + shift) % 26) + 65 #shift characters if exceeds alphabet lengts
+    if val.islower(): #ascii to characters again
+        char = char + 32
+    print(chr(char), end="")
+
 if __name__ == "__main__":
     main()
