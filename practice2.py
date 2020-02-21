@@ -60,11 +60,14 @@ def main():
     
     #4
     print("-------------------4------------------")
-    #26
+
     word = input()
     shift = int(input())
     for i in word:
         normalize_char(i, shift)
+
+    #5
+    print("-------------------5------------------")
 
 def normalize_char(val, shift):
     temp = ord(val) #converts to ascii values
