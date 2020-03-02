@@ -68,6 +68,24 @@ def main():
 
     #5
     print("-------------------5------------------")
+    #combining words letter by letter
+    word_1 = input("Enter Word 1")
+    word_2 = input("Enter Word 2")
+    
+    new_word = ""
+    for i in range(len(word_1)):
+        new_word += word_1[i] + word_2[i]
+    print(new_word)
+
+    #7
+    print("-------------------7------------------")
+
+    number = input("Enter a number")
+    condition = []
+    for i in range(len(number)):
+        condition.append((i + 2 <= len(number) - 1) and (number[i] == number[i + 2]))
+
+
 
 def normalize_char(val, shift):
     temp = ord(val) #converts to ascii values
