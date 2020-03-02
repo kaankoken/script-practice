@@ -14,7 +14,26 @@ def count_char(dic, key):
         pass
     else:
         dic[key] = 1
+
 #3
+def f(x):
+    x = [1,2,3,4]
+    return x
+
+def thirdQuestion():
+    a = [1,2,3]
+    b = f(a)
+    
+    print(b)
+    print(a)
+
+    c = f(a[:])
+    
+    print(c)
+    print(a)
+    print(b)
+
+#4
 def occurence():
     sentence = input()
     factor = int(input())
@@ -64,7 +83,8 @@ def main():
     #for key in sentence:
     #    count_char(dic, key)
     #test()
-    yearReg()
+    #yearReg()
+    thirdQuestion()
 
 if __name__ == "__main__":
     main()
