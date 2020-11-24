@@ -1,0 +1,11 @@
+Animal Information
+Animal No: 6904Gender: female
+Birth Date: 1996-06-12 00:00:00
+Colour: black
+Environment Conditions
+Relative Humidity: 123
+Enclosure Size(m^2): 123
+Temperature: 123.0
+Hours of light per day: 12
+Date	Time	Animal Weight(kg)	Temperature(C)	Note	Staff
+06/12/1996	15:00	123.0	123.0	asd	kaan koken

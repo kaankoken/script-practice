@@ -1,0 +1,3 @@
+Animal No: 6904
+Date	Time	Food Name	Manufacturer	Weight(gr)	Staff
+12/06/1996	15:00	asd	asd	123	kaan koken
